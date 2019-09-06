@@ -14,7 +14,7 @@ new Audio('sounds/' + randomChosenColour +'.mp3').play();
 $(".btn").click(function() {
   var userChosenColour = $(this).attr('id');
   userClickedPattern.push(userChosenColour);
-  console.log(userClickedPattern);
+  // console.log(userClickedPattern);
 });
 
 
